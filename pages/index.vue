@@ -1,52 +1,45 @@
-<template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        try-it
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
+<template lang="pug">
+  .container
+    div
+      Logo
+      h1.title Try It
+
+      .links
+        a(href="https://nuxtjs.org"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
+        ) Documentation
+
+        a(href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+        ) Github
+
+
 </template>
 
 <script>
 export default {}
 </script>
 
-<style>
+<style lang="stylus">
 /* Sample `apply` at-rules with Tailwind CSS
 .container {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+.container
+  margin 0 auto
+  min-height 100vh
+  display flex
+  justify-content center
+  align-items center
+  text-align center
 
-.title {
+
+.title
   font-family:
     'Quicksand',
     'Source Sans Pro',
@@ -56,23 +49,23 @@ export default {}
     Roboto,
     'Helvetica Neue',
     Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+    sans-serif
+  display block
+  font-weight 300
+  font-size 100px
+  color #35495e
+  letter-spacing 1px
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
 
-.links {
-  padding-top: 15px;
-}
+.subtitle
+  font-weight 300
+  font-size 42px
+  color #526488
+  word-spacing 5px
+  padding-bottom 15px
+
+
+.links
+  padding-top 15px
+
 </style>
