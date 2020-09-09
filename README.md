@@ -1,4 +1,6 @@
-# try-it
+# Nuxt + Pug + Stylus + TailwindCSS
+
+This repo is a simple starter that adds Pug, Stylus, and TailwindCSS at the start of the project. 
 
 ## Build Setup
 

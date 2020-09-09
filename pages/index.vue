@@ -2,7 +2,7 @@
   .container
     div
       Logo
-      h1.title Try It
+      h1.title(class="text-6xl font-bold py-16") Pug + Stylus + Tailwind
 
       .links
         a(href="https://nuxtjs.org"
@@ -51,8 +51,6 @@ export default {}
     Arial,
     sans-serif
   display block
-  font-weight 300
-  font-size 100px
   color #35495e
   letter-spacing 1px
 
